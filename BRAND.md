@@ -9,7 +9,8 @@ goes to them. Trademark questions: ip@rich.com.
 | Section | Source |
 |---|---|
 | Logo, clear space, tagline, lockups, placement, digital use, misuse, legal | Rich's brand portal, "Our Logo" page (saved copy in RW Dropbox), and its images in `assets/rules/` |
-| Colors, gradients, typography, design elements, layout | RW summary notes made from the same portal (`Rich's Brand Guidelines — Complete Reference.md`). The saved portal page does not show these pages, so check against the portal before final client work. |
+| Colors and typography | RW summary notes, checked 2026-11-12 against Rich's 2025 Responsible Business Report and rich.com; each value is marked Confirmed or Unconfirmed below |
+| Design elements and layout | RW summary notes (`Rich's Brand Guidelines — Complete Reference.md`), not yet checked against the brand site |
 | `assets/logos/richs-logo-website.svg` | Logo file used on rich.com (Community Impact page) |
 
 ## Logo
@@ -54,18 +55,21 @@ Never use the logo without the pillow; never change the size of the wordmark ins
 - New brand assets or brand activity (e.g. licensing) need Brand Trust & Legal approval.
 - Use the trademark as an adjective, consistently, with the proper ™ or ® notice. Confirm status with ip@rich.com for the product and country.
 
-## Colors (from RW summary notes; confirm against portal)
+## Colors
+
+**Checked 2026-11-12** against two of Rich's own sources: the 2025 Responsible Business Report PDF (every color used on its 47 pages) and rich.com's code (saved Community Impact page). Rich's brand site needs a Rich's login, so it has not been checked directly.
+Status: **Confirmed** = used by Rich's in those sources. **Unconfirmed** = from RW notes only, not found in either source.
 
 ### Primary
-| Name | HEX | RGB | CMYK | Use |
-|---|---|---|---|---|
-| Rich's Red (core) | `#BA0C2F` | 186 12 47 | 18 100 87 9 | Main brand color, headers, buttons |
-| Rich's Dark Red (accent) | `#980C31` | 152 12 49 | 26 100 77 23 | Dark end of gradients, hover |
-| Rich's Light Red (accent) | `#D31145` | 211 17 69 | 0 100 63 12 | Highlights, active states |
+| Name | HEX | RGB | CMYK | Use | Status |
+|---|---|---|---|---|---|
+| Rich's Red (core) | `#BA0C2F` | 186 12 47 | 18 100 87 9 | Main brand color, headers, buttons | **Confirmed** (report's main red; 119 uses on rich.com) |
+| Rich's Dark Red (accent) | `#980C31` | 152 12 49 | 26 100 77 23 | Dark end of gradients, hover | **Confirmed** (report and rich.com) |
+| Rich's Light Red (accent) | `#D31145` | 211 17 69 | 0 100 63 12 | Highlights, active states | **Confirmed** on rich.com (its most-used color, 205 uses); not used in the report |
 
-Note: the logo file on rich.com uses `#CF1F3E` for the pillow. Use the official logo file as-is; do not recolor it to match the palette.
+RGB and CMYK values are from RW notes and are unconfirmed. Use the official logo files as-is and never recolor them: the logo on rich.com draws its pillow in `#CF1F3E`.
 
-### Neutrals
+### Neutrals (unconfirmed)
 | Name | HEX |
 |---|---|
 | Rich's Gray | `#58595B` (body text) |
@@ -73,19 +77,28 @@ Note: the logo file on rich.com uses `#CF1F3E` for the pillow. Use the official 
 | Rich's Warm White | `#F9F7F4` (page backgrounds; plain white `#FFFFFF` also used) |
 | Rich's Black | `#231F20` (headlines) |
 
-### Secondary social colors (charts and data only)
+None of these four appears in the report or on rich.com. In practice Rich's uses black `#000000` and white text in the report, and light grays `#F2F2F2` / `#F4F4F4` / `#DBDBDB` as panel and border colors. Until the brand site confirms the neutrals, treat them as reasonable but unverified.
+
+### Secondary social colors (charts and data only, unconfirmed)
 Green `#D8EBDE` · Blue `#DBE6EE` · Purple `#EAE2EC` · Pink `#F7DEE3` · Orange `#F8EBCD` · Yellow `#FBFBE3`
 
-### Gradients
-- Dark Red: `#980C31` → `#BA0C2F`
-- Red: `#BA0C2F` → `#D31145`
-- Gray: `#58595B` → `#D1D3D4`
+Not found in either source. For reference, the report's charts and callouts use teal `#358087`, navy `#012E88` and purple `#7404BF`; these are observed usage, not named brand colors.
 
-## Typography (from RW summary notes; confirm against portal)
-- **Alright Sans Black**: primary brand headline font (agency use).
-- **Verdana Bold**: system font for digital, web, email and PowerPoint, i.e. what RW should use.
-- **Market Pro / Drina**: accent only.
-- Web fallback stack: `Verdana, "Inter", Geneva, sans-serif`.
+### Gradients
+- Dark Red: `#980C31` → `#BA0C2F` (both colors confirmed)
+- Red: `#BA0C2F` → `#D31145` (both colors confirmed)
+- Gray: `#58595B` → `#D1D3D4` (unconfirmed)
+
+## Typography
+
+| Font | Use | Status |
+|---|---|---|
+| **Alright Sans** (Black, Ultra, Medium, Regular) | Brand font: headlines, and body on rich.com | **Confirmed**: rich.com sets its text in these four weights |
+| **Verdana** (Regular, Bold, Italic) | Everyday font for Office files, email and slides | **Confirmed**: Rich's own report, BOC deck and BOC Guiding Principles are all set in Verdana |
+| Market Pro / Drina | Accent only | Unconfirmed (RW notes only) |
+
+Alright Sans is a licensed font, so RW work should use **Verdana** (bold for headings) unless Rich's supplies the font files.
+Web fallback stack: `Verdana, "Inter", Geneva, sans-serif`.
 
 ## Design elements and layout (from RW summary notes)
 - **Pillow frame**: the rounded pillow shape is a protected brand element, also used to frame callouts.

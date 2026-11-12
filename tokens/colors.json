@@ -1,12 +1,47 @@
 {
-  "_source": "RW summary of Rich's brand portal; confirm before final client work. Logo pillow on rich.com uses #CF1F3E; never recolor the logo.",
-  "primary": { "richs-red": "#BA0C2F", "richs-dark-red": "#980C31", "richs-light-red": "#D31145" },
-  "neutral": { "gray": "#58595B", "light-gray": "#D1D3D4", "warm-white": "#F9F7F4", "white": "#FFFFFF", "black": "#231F20" },
-  "social": { "green": "#D8EBDE", "blue": "#DBE6EE", "purple": "#EAE2EC", "pink": "#F7DEE3", "orange": "#F8EBCD", "yellow": "#FBFBE3" },
-  "gradients": {
-    "dark-red": ["#980C31", "#BA0C2F"],
-    "red": ["#BA0C2F", "#D31145"],
-    "gray": ["#58595B", "#D1D3D4"]
+  "_source": "Checked 2026-11-12: reds confirmed in Rich's 2025 Responsible Business Report and on rich.com; neutrals and social colors unconfirmed (RW notes only). Logo pillow on rich.com uses #CF1F3E; never recolor the logo.",
+  "primary": {
+    "richs-red": "#BA0C2F",
+    "richs-dark-red": "#980C31",
+    "richs-light-red": "#D31145"
   },
-  "fonts": { "headline-agency": "Alright Sans Black", "digital": "Verdana", "accent": "Market Pro / Drina" }
+  "neutral": {
+    "gray": "#58595B",
+    "light-gray": "#D1D3D4",
+    "warm-white": "#F9F7F4",
+    "white": "#FFFFFF",
+    "black": "#231F20"
+  },
+  "social": {
+    "green": "#D8EBDE",
+    "blue": "#DBE6EE",
+    "purple": "#EAE2EC",
+    "pink": "#F7DEE3",
+    "orange": "#F8EBCD",
+    "yellow": "#FBFBE3"
+  },
+  "gradients": {
+    "dark-red": [
+      "#980C31",
+      "#BA0C2F"
+    ],
+    "red": [
+      "#BA0C2F",
+      "#D31145"
+    ],
+    "gray": [
+      "#58595B",
+      "#D1D3D4"
+    ]
+  },
+  "fonts": {
+    "brand": "Alright Sans (Black, Ultra, Medium, Regular) - confirmed on rich.com, licensed",
+    "office-and-digital": "Verdana - confirmed in Rich's own documents",
+    "accent": "Market Pro / Drina - unconfirmed"
+  },
+  "_status": {
+    "primary": "confirmed",
+    "neutral": "unconfirmed",
+    "social": "unconfirmed"
+  }
 }
