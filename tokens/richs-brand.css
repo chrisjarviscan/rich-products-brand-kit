@@ -1,0 +1,27 @@
+/* Rich's brand tokens. Source: BRAND.md. Do not recolor the logo files. */
+:root {
+  --richs-red: #BA0C2F;
+  --richs-dark-red: #980C31;
+  --richs-light-red: #D31145;
+  --richs-gray: #58595B;
+  --richs-light-gray: #D1D3D4;
+  --richs-warm-white: #F9F7F4;
+  --richs-white: #FFFFFF;
+  --richs-black: #231F20;
+
+  --richs-social-green: #D8EBDE;
+  --richs-social-blue: #DBE6EE;
+  --richs-social-purple: #EAE2EC;
+  --richs-social-pink: #F7DEE3;
+  --richs-social-orange: #F8EBCD;
+  --richs-social-yellow: #FBFBE3;
+
+  --richs-gradient-dark-red: linear-gradient(135deg, #980C31, #BA0C2F);
+  --richs-gradient-red: linear-gradient(135deg, #BA0C2F, #D31145);
+  --richs-gradient-gray: linear-gradient(135deg, #58595B, #D1D3D4);
+
+  --richs-font: Verdana, "Inter", Geneva, sans-serif;
+  --richs-logo-min-width: 54px;
+}
+body { font-family: var(--richs-font); color: var(--richs-gray); background: var(--richs-warm-white); }
+h1, h2, h3 { color: var(--richs-black); font-weight: 700; }
